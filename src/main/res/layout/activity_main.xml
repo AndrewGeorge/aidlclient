@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+       android:layout_height="fill_parent"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+       <EditText
+           android:id="@+id/edt_num1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+       <TextView
+           android:layout_gravity="center"
+           android:textSize="22dp"
+           android:text="+"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+       <EditText
+           android:id="@+id/edt_num2"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:id="@+id/btn_add"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="确定"
+           />
+    <TextView
+        android:id="@+id/tv_res"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:textSize="22dp"
+       android:hint="显示计算结果"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   </LinearLayout>
+
+
+
